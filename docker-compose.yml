@@ -1,0 +1,15 @@
+  
+version: '2'
+services:
+  app:
+    build: .
+    tty: true
+    environment:
+      NODE_ENV: development
+    ports:
+      - '3000:3000'
+    volumes:
+      - sync-volume:/work/myspace:nocopy
+volumes:
+  sync-volume:
+    external: true

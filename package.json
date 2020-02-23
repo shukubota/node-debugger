@@ -1,0 +1,37 @@
+{
+  "name": "myspace",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node dist/index.js",
+    "build": "tsc index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/shukubota/node-debugger.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/shukubota/node-debugger/issues"
+  },
+  "homepage": "https://github.com/shukubota/node-debugger#readme",
+  "dependencies": {
+    "@types/restify": "^8.4.2",
+    "node-fetch": "^2.6.0",
+    "restify": "^8.5.1"
+  },
+  "devDependencies": {
+    "ts-loader": "^6.2.1",
+    "tslint": "^6.0.0",
+    "tslint-config-airbnb": "^5.11.2",
+    "tslint-loader": "^3.5.4",
+    "typescript": "^3.8.2",
+    "webpack": "^4.41.6",
+    "webpack-cli": "^3.3.11",
+    "webpack-node-externals": "^1.7.2"
+  }
+}

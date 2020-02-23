@@ -1,0 +1,10 @@
+version: '2'
+
+options:
+  verbose: true
+
+syncs:
+  sync-volume:
+    src: '.'
+    sync_excludes: ['myspace/*']
+  
